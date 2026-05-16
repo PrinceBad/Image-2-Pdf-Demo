@@ -1,16 +1,32 @@
-# React + Vite
+# Image2PDF Converter 📄✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, secure, and purely client-side React application that converts your images into a single PDF document. Inspired by clean, modern tools like iLovePDF, but built to run entirely in your browser with zero server uploads required.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **100% Secure & Private:** Files are processed locally on your device. No images are ever uploaded to a remote server.
+* **Drag and Drop Interface:** Easily drag and drop multiple images to add them to your workspace.
+* **Preview & Manage:** View thumbnails of your uploaded images and remove any you don't want included in the final document.
+* **Fast Generation:** Uses `jsPDF` to compile images into a standard A4 PDF document instantly.
+* **Modern UI:** Clean, responsive design built with Tailwind CSS.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Framework:** React (via Vite)
+* **Styling:** Tailwind CSS
+* **PDF Generation:** [jsPDF](https://github.com/parallax/jsPDF) (Loaded dynamically via CDN)
+* **Deployment:** Vercel
 
-## Expanding the ESLint configuration
+## 💻 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally on your machine, follow these steps:
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/image-to-pdf.git](https://github.com/YOUR_USERNAME/image-to-pdf.git)
+   cd image-to-pdf
